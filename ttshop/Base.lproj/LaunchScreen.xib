@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F1096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg1" translatesAutoresizingMaskIntoConstraints="NO" id="wZY-Ek-0Ow">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015年 david_du1987@126.com All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="983" width="729" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TTSHOP智能销售系统" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yr-WQ-2ZE">
+                    <rect key="frame" x="275.5" y="293" width="217" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="450" id="1e9-Yy-0q9"/>
+                        <constraint firstAttribute="height" constant="49" id="3MS-So-Gip"/>
+                        <constraint firstAttribute="width" constant="217" id="p3R-tv-gk2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="23"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="1e9-Yy-0q9"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="david_du1987@126.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxP-LK-otf">
+                    <rect key="frame" x="284.5" y="421" width="199" height="20.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="284" id="4wI-Oa-vnf"/>
+                        <constraint firstAttribute="height" constant="21" id="UPb-zP-PDf"/>
+                        <constraint firstAttribute="width" constant="199" id="bja-ne-pRh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="4wI-Oa-vnf"/>
+                            <exclude reference="UPb-zP-PDf"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用过程有疑问,或者想定制其它功能" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBj-D5-kms">
+                    <rect key="frame" x="240.5" y="369" width="287" height="20.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="414" id="Ulh-Pz-ecQ"/>
+                        <constraint firstAttribute="width" constant="287" id="YnR-2m-Fft"/>
+                        <constraint firstAttribute="height" constant="35" id="c14-1K-h2c"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Ulh-Pz-ecQ"/>
+                            <exclude reference="c14-1K-h2c"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="8yr-WQ-2ZE" secondAttribute="centerX" id="FWj-fn-xw6"/>
+                <constraint firstItem="8yr-WQ-2ZE" firstAttribute="top" secondItem="uBj-D5-kms" secondAttribute="bottom" constant="-96.5" id="IJz-Xu-iqV"/>
+                <constraint firstAttribute="trailing" secondItem="wZY-Ek-0Ow" secondAttribute="trailing" id="JK3-Hm-2Zf"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstAttribute="centerX" secondItem="uBj-D5-kms" secondAttribute="centerX" id="O9Y-dt-Xsr"/>
+                <constraint firstItem="wZY-Ek-0Ow" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XlG-35-LkG"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstAttribute="centerX" secondItem="LxP-LK-otf" secondAttribute="centerX" id="jTh-vk-je0"/>
+                <constraint firstItem="wZY-Ek-0Ow" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mA7-sh-sY0"/>
+                <constraint firstItem="8yr-WQ-2ZE" firstAttribute="top" secondItem="LxP-LK-otf" secondAttribute="bottom" constant="-148.5" id="vO3-kh-Eke"/>
+                <constraint firstItem="8yr-WQ-2ZE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="293" id="x9S-i0-ABf"/>
+                <constraint firstAttribute="bottom" secondItem="wZY-Ek-0Ow" secondAttribute="bottom" id="zCC-vo-V5z"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg1" width="2179" height="2115"/>
+    </resources>
+</document>
